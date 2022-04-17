@@ -1,0 +1,23 @@
+{
+  "name": "uni-shop",
+  "version": "1.0.0",
+  "description": "uni-app学习项目，参考：https://www.escook.cn/docs-uni-shop/mds/1.start.html#_1-6-1-%E6%9C%AC%E5%9C%B0%E7%AE%A1%E7%90%86",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tanksphere@github.com/tanksphere/uni-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanksphere/uni-shop/issues"
+  },
+  "homepage": "https://github.com/tanksphere/uni-shop#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
