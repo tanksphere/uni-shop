@@ -13,7 +13,7 @@ $http.afterRequest = function(options) {
 	uni.hideLoading()
 }
 // 请求的根路径
-$http.baseUrl = "http://www.uinav.com"
+$http.baseUrl = "https://www.uinav.com"
 
 uni.$showMsg = function(title="数据请求失败", duration=1500) {
 	uni.showToast({
