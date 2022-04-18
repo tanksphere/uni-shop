@@ -49,10 +49,10 @@
     /* 快应用特有相关 */
     "mp-weixin" : {
         /* 小程序特有相关 */
-        "appid" : "wx4d26db40efcf2cad",
+        "appid" : "wxfa830db41ed8d789",
         "setting" : {
             "urlCheck" : false,
-			"checkSiteMap": false
+            "checkSiteMap" : false
         },
         "usingComponents" : true
     }
