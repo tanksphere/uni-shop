@@ -30,7 +30,6 @@
 		},
 		methods: {
 			searchBoxHandler() {
-				console.log("=============")
 				this.$emit('click')
 			}
 		}

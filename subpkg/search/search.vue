@@ -40,7 +40,7 @@
 			};
 		},
 		onLoad() {
-			this.historyList = JSON.parse(uni.getStorageSync('kw' || '[]'))
+			this.historyList = JSON.parse(uni.getStorageSync('kw') || '[]')
 		},
 		methods: {
 			// input输入事件处理函数
