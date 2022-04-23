@@ -1,3 +1,5 @@
+import store from '@/store/store.js'
+
 
 // 导入网络请求的包
 import { $http } from '@escook/request-miniprogram'
@@ -13,7 +15,7 @@ $http.afterRequest = function(options) {
 	uni.hideLoading()
 }
 // 请求的根路径
-$http.baseUrl = "https://www.uinav.com"
+$http.baseUrl = "http://www.uinav.com"
 
 uni.$showMsg = function(title="数据请求失败", duration=1500) {
 	uni.showToast({
@@ -32,7 +34,8 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
 // #endif
@@ -42,6 +45,7 @@ import { createSSRApp } from 'vue'
 import App from './App.vue'
 export function createApp() {
   const app = createSSRApp(App)
+  app.use(store)
   return {
     app
   }
